@@ -1,0 +1,30 @@
+/* Center the form on the page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  /* Style the form input fields */
+  .form-control {
+    width: 500px;
+    
+  }
+  
+  /* Center the form inputs within the container */
+  .form-group {
+    text-align: center;
+    
+  }
+
+  .form-label{
+    padding: 10px;
+  }
+  
+  
+  /* Center the submit button */
+  .btn-primary {
+    display: block;
+    margin: 0 auto;
+  }
